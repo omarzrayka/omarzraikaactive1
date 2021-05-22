@@ -19,7 +19,16 @@ class ControllerCatalogProductBulkImport  extends controller
 	{
 		$this->load->language('catalog/product_bulk_import');
 
+
 		$this->document->setTitle($this->language->get('heading_title'));
+
+		$this->data['column_name'] = $this->language->get('column_name');
+		$this->data['column_model'] = $this->language->get('column_model');
+		$this->data['column_sku'] = $this->language->get('column_sku');
+		$this->data['column_price'] = $this->language->get('column_price');
+		$this->data['column_quantity'] = $this->language->get('column_quantity');
+		$this->data['column_action'] = $this->language->get('column_action');
+
 
 		$this->load->model('catalog/product_bulk_import');
 
@@ -29,6 +38,12 @@ class ControllerCatalogProductBulkImport  extends controller
 		}else{
 			$this->data['success'] = false;
 		}
+		if(isset($this->session->data['duplicate_list'])){
+			$this->data['duplicate_list'] = $this->session->data['duplicate_list'];
+			unset($this->session->data['duplicate_list']);
+		}else{
+			$this->data['duplicate_list'] = false;
+		}
 
 		if ($this->request->server['REQUEST_METHOD'] == 'POST') {
 		
@@ -36,6 +51,8 @@ class ControllerCatalogProductBulkImport  extends controller
 
 			include 'PHPExcel/Classes/PHPExcel/IOFactory.php';
 			$url = '';
+			$duplicate_list = array();
+
 			$objectExcel = PHPExcel_IOFactory::load($file);
 			foreach ($objectExcel->getWorksheetIterator() as $worksheet) {
 
@@ -45,27 +62,47 @@ class ControllerCatalogProductBulkImport  extends controller
 
 					$data['name'] = $worksheet->getCellByColumnAndRow(0, $row)->getValue();
 					$data['model'] = $worksheet->getCellByColumnAndRow(1, $row)->getValue();
-					$data['quantity'] = $worksheet->getCellByColumnAndRow(2, $row)->getValue();
-					$data['price'] = $worksheet->getCellByColumnAndRow(3, $row)->getValue();
+					$data['sku'] = $worksheet->getCellByColumnAndRow(2, $row)->getValue();
+					$data['quantity'] = $worksheet->getCellByColumnAndRow(3, $row)->getValue();
+					$data['price'] = $worksheet->getCellByColumnAndRow(4, $row)->getValue();
 
 					$duplicate = $this->model_catalog_product_bulk_import->duplicateProduct($data);
 
 					if ($data['model'] != "" &&  $duplicate  == 0) {
 						$this->model_catalog_product_bulk_import->importProduct($data);
-					} else {
-							
-					
-						$this->session->data['success'] = "There is duplicates";
-						$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+					} elseif ($data['model'] != ""){
+						
+						$action = array();
 
+			$action[] = array(
+				'text' => $this->language->get('text_edit'),
+				'href' => $this->url->link('catalog/product/update', 'token=' . $this->session->data['token'] . '&product_id=' . $row . $url, 'SSL')
+			);
+						
+			$duplicate_list[] = array(
+				'name' => $data['name'],
+				'model' => $data['model'],
+				'sku'=> $data['sku'],
+				'quantity'  => $data['quantity'],
+				'price' => $data['price'],
+				'action' => $action
+			);
+						
 					}
 				}
-			}
-            
+		   }
+
+				   if(count($data) > 0){
+					 $this->session->data['duplicate_list'] = $duplicate_list;
+					$this->session->data['success'] = "There is duplicates";
+					$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+
+
+				   }
 			$this->session->data['duplicate'] = $this->language->get('text_success');
 
 
-			$this->redirect($this->url->link('catalog/product_bulk_import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+			$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
 		}
 
 		$this->getForm();

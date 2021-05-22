@@ -9901,3 +9901,955 @@
 2021-05-21 13:06:09 - PHP Notice:  Undefined index: success in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 26
 2021-05-21 13:07:38 - PHP Notice:  Undefined variable: success in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 3
 2021-05-21 13:07:38 - PHP Notice:  Undefined variable: success in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 3
+2021-05-22 7:55:54 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 8:17:48 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 8:17:59 - PHP Notice:  Undefined variable: cart in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 59
+2021-05-22 8:18:27 - PHP Notice:  Undefined variable: cart in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 59
+2021-05-22 8:19:21 - PHP Notice:  Undefined variable: cart in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 59
+2021-05-22 8:38:09 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 8:38:30 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 8:38:32 - PHP Notice:  Undefined variable: duplicate_list in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 37
+2021-05-22 8:52:45 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 51
+2021-05-22 8:52:45 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 52
+2021-05-22 9:48:56 - PHP Notice:  Undefined offset: 0 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 53
+2021-05-22 9:48:56 - PHP Notice:  Undefined offset: 1 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 53
+2021-05-22 9:48:56 - PHP Notice:  Undefined offset: 2 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 53
+2021-05-22 9:48:56 - PHP Notice:  Undefined offset: 3 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 53
+2021-05-22 9:50:01 - PHP Notice:  Undefined offset: 0 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 53
+2021-05-22 9:50:01 - PHP Notice:  Undefined offset: 1 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 53
+2021-05-22 9:50:01 - PHP Notice:  Undefined offset: 2 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 53
+2021-05-22 9:50:01 - PHP Notice:  Undefined offset: 3 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 53
+2021-05-22 9:51:01 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 9:51:01 - PHP Notice:  Undefined offset: 0 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:51:01 - PHP Notice:  Undefined offset: 1 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:51:01 - PHP Notice:  Undefined offset: 2 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:51:01 - PHP Notice:  Undefined offset: 3 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:51:36 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 9:51:36 - PHP Notice:  Undefined offset: 0 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:51:36 - PHP Notice:  Undefined offset: 1 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:51:36 - PHP Notice:  Undefined offset: 2 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:51:36 - PHP Notice:  Undefined offset: 3 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:52:08 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 9:52:08 - PHP Notice:  Undefined offset: 0 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:52:08 - PHP Notice:  Undefined offset: 1 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:52:08 - PHP Notice:  Undefined offset: 2 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:52:08 - PHP Notice:  Undefined offset: 3 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:52:48 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 9:55:09 - PHP Notice:  Undefined offset: 0 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:09 - PHP Notice:  Undefined offset: 1 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:09 - PHP Notice:  Undefined offset: 2 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:09 - PHP Notice:  Undefined offset: 3 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:30 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:30 - PHP Notice:  Undefined offset: 0 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:30 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:30 - PHP Notice:  Undefined offset: 1 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:30 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:30 - PHP Notice:  Undefined offset: 2 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:30 - PHP Notice:  Use of undefined constant name - assumed 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:55:30 - PHP Notice:  Undefined offset: 3 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:56:03 - PHP Notice:  Undefined offset: 0 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:56:03 - PHP Notice:  Undefined offset: 1 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:56:03 - PHP Notice:  Undefined offset: 2 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:56:03 - PHP Notice:  Undefined offset: 3 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:56:40 - PHP Notice:  Undefined variable: duplicate_lis in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:56:40 - PHP Notice:  Undefined variable: duplicate_lis in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:56:40 - PHP Notice:  Undefined variable: duplicate_lis in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:56:40 - PHP Notice:  Undefined variable: duplicate_lis in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:57:03 - PHP Notice:  Undefined variable: duplicate_lis in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:57:03 - PHP Notice:  Undefined variable: duplicate_lis in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:57:03 - PHP Notice:  Undefined variable: duplicate_lis in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 9:57:03 - PHP Notice:  Undefined variable: duplicate_lis in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:00:23 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:01:13 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:01:13 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:01:13 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:01:13 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:16 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:55 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:55 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:55 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:55 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:55 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:55 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:55 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:02:55 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:03:46 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 10:03:46 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:03:46 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:03:46 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:03:46 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:03:46 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:03:46 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:03:46 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:03:46 - PHP Warning:  Illegal string offset 'name' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 54
+2021-05-22 10:07:10 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 10:11:21 - PHP Notice:  Undefined variable: column_name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 46
+2021-05-22 10:11:21 - PHP Notice:  Undefined variable: column_model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 47
+2021-05-22 10:11:21 - PHP Notice:  Undefined variable: column_quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 48
+2021-05-22 10:11:21 - PHP Notice:  Undefined variable: column_price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 10:16:44 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:16:44 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:16:44 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:16:44 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:22:33 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 10:27:00 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 10:27:02 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 10:27:02 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 10:27:03 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 10:29:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 56
+2021-05-22 10:29:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 56
+2021-05-22 10:29:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 56
+2021-05-22 10:29:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 56
+2021-05-22 10:31:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:31:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:31:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:31:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:40:32 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 10:40:42 - PHP Notice:  Undefined index: selected in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 56
+2021-05-22 10:40:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:40:42 - PHP Notice:  Undefined index: selected in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 56
+2021-05-22 10:40:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:40:42 - PHP Notice:  Undefined index: selected in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 56
+2021-05-22 10:40:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:40:42 - PHP Notice:  Undefined index: selected in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 56
+2021-05-22 10:40:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:42:43 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:42:43 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:42:43 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:42:43 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 59
+2021-05-22 10:53:17 - PHP Notice:  Undefined variable: column_action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 11:04:50 - PHP Notice:  Undefined variable: column_action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 11:04:51 - PHP Notice:  Undefined variable: column_action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 11:04:51 - PHP Notice:  Undefined variable: column_action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 11:04:52 - PHP Notice:  Undefined variable: column_action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 11:04:52 - PHP Notice:  Undefined variable: column_action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 49
+2021-05-22 11:07:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:07:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:07:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:07:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:21:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:21:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:21:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:21:42 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:21:42 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:21:43 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:21:43 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:21:43 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:21:43 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:22:15 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:22:15 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:22:15 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:22:15 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:24:18 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:24:18 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:24:18 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:24:18 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:24:18 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:24:18 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:24:18 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:24:18 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:24:18 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:24:18 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:24:18 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:24:18 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:26:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:26:01 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:26:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:26:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:26:01 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:26:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:26:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:26:01 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:26:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:26:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:26:01 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:26:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:27:49 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:27:49 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:29:04 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:34 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:34 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:29:35 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:29:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:30:41 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:30:41 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:35:08 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:36:01 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:01 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:01 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:01 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:36:02 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:43:39 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:43:39 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:47:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:47:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:50:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:50:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:51:59 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:51:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:51:59 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:51:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:51:59 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:51:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:51:59 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:51:59 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:51:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:52:22 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:52:22 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:52:22 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:52:22 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:52:22 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:52:22 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:52:22 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: name in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: model in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: sku in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: quantity in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: price in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:52:22 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:52:22 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:54:38 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:54:38 - PHP Warning:  Illegal string offset 'text' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 11:59:24 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 11:59:24 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 11:59:24 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 11:59:24 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:59:24 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:59:24 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:59:24 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:59:24 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 11:59:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 11:59:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 11:59:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 11:59:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 11:59:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 11:59:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 11:59:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 68
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:04:52 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:04:52 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:04:52 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:04:52 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:04:52 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:04:52 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:04:52 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:04:52 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:04:52 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 12:04:52 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 12:04:52 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 12:04:52 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 12:04:52 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 12:04:52 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:04:52 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:05:48 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:05:48 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:05:48 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:05:48 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:05:48 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:05:48 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:05:48 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:05:48 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:05:48 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 12:05:48 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 12:05:48 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 12:05:48 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 12:05:48 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 12:05:48 - PHP Warning:  Illegal string offset 'href' in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:05:48 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:06:33 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:06:33 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:06:33 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:06:33 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:06:33 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:06:33 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:06:33 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:06:33 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:06:33 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:06:33 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 12:06:33 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 12:06:33 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 12:06:33 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 12:06:33 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 12:06:33 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:08:24 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:08:24 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:08:24 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:08:24 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:08:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:08:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 12:08:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 12:08:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 12:08:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 12:08:24 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:14:55 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:14:55 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:14:55 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:14:55 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:14:55 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:14:55 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:14:55 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:14:55 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:14:55 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:14:55 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 12:14:55 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 12:14:55 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 12:14:55 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 12:14:55 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 12:14:55 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:00 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:00 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:00 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:00 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:00 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:00 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:00 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:00 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:00 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:00 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 12:16:00 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 12:16:00 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 12:16:00 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 12:16:00 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 12:16:00 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:28 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:28 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:28 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:28 - PHP Notice:  Undefined index:  in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:28 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:28 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:28 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:28 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:16:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:16:28 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 12:16:28 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 12:16:28 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 12:16:28 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 12:16:28 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 12:16:28 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:17:14 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:17:14 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:17:14 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:17:14 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:17:14 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:17:14 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 63
+2021-05-22 12:17:14 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 64
+2021-05-22 12:17:14 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 65
+2021-05-22 12:17:14 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 66
+2021-05-22 12:17:14 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 67
+2021-05-22 12:17:14 - PHP Notice:  Undefined offset: 4 in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:18:43 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:18:43 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:18:43 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:18:43 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:18:43 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 97
+2021-05-22 12:19:07 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:19:07 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:19:07 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:19:07 - PHP Notice:  Undefined variable: i in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 83
+2021-05-22 12:19:07 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 97
+2021-05-22 12:19:38 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\controller\catalog\product_bulk_import.php on line 97
+2021-05-22 12:20:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:12 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:12 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:12 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:12 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:12 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:12 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:12 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:12 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:12 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:45 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:45 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:45 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:45 - PHP Notice:  Undefined index: action in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:20:45 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:20:45 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:21:21 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:21:21 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:21:21 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:21:21 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:21:21 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:21:21 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:21:21 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:21:21 - PHP Notice:  Array to string conversion in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:21:54 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:21:54 - PHP Notice:  Undefined index: text in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:21:54 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:21:54 - PHP Notice:  Undefined index: text in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:21:54 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:21:54 - PHP Notice:  Undefined index: text in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:21:54 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:21:54 - PHP Notice:  Undefined index: text in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:24:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:24:24 - PHP Notice:  Undefined index: text in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:24:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:24:24 - PHP Notice:  Undefined index: text in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:24:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:24:24 - PHP Notice:  Undefined index: text in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:24:24 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:24:24 - PHP Notice:  Undefined index: text in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 69
+2021-05-22 12:25:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:25:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:25:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:25:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:25:18 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 12:25:47 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 12:25:51 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 12:25:55 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21
+2021-05-22 12:29:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:29:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:29:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:29:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
