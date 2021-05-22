@@ -10853,3 +10853,8 @@
 2021-05-22 12:29:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
 2021-05-22 12:29:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
 2021-05-22 12:29:28 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:55:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:55:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:55:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 12:55:01 - PHP Notice:  Undefined variable: product in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import_form.tpl on line 60
+2021-05-22 13:09:01 - PHP Notice:  Undefined variable: delete in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\catalog\product_bulk_import.tpl on line 21

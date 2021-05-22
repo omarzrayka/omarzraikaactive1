@@ -19,7 +19,6 @@ class ControllerCatalogProductBulkImport  extends controller
 	{
 		$this->load->language('catalog/product_bulk_import');
 
-
 		$this->document->setTitle($this->language->get('heading_title'));
 
 		$this->data['column_name'] = $this->language->get('column_name');
@@ -28,7 +27,6 @@ class ControllerCatalogProductBulkImport  extends controller
 		$this->data['column_price'] = $this->language->get('column_price');
 		$this->data['column_quantity'] = $this->language->get('column_quantity');
 		$this->data['column_action'] = $this->language->get('column_action');
-
 
 		$this->load->model('catalog/product_bulk_import');
 
@@ -50,10 +48,12 @@ class ControllerCatalogProductBulkImport  extends controller
 			$file = $this->request->files["file"]["tmp_name"];
 
 			include 'PHPExcel/Classes/PHPExcel/IOFactory.php';
+
 			$url = '';
 			$duplicate_list = array();
 
 			$objectExcel = PHPExcel_IOFactory::load($file);
+			
 			foreach ($objectExcel->getWorksheetIterator() as $worksheet) {
 
 				$highestrow = $worksheet->getHighestRow();
@@ -68,39 +68,40 @@ class ControllerCatalogProductBulkImport  extends controller
 
 					$duplicate = $this->model_catalog_product_bulk_import->duplicateProduct($data);
 
-					if ($data['model'] != "" &&  $duplicate  == 0) {
+			        if ($data['model'] != "" &&  $duplicate  == 0) {
 						$this->model_catalog_product_bulk_import->importProduct($data);
+				    
 					} elseif ($data['model'] != ""){
 						
 						$action = array();
 
-			$action[] = array(
-				'text' => $this->language->get('text_edit'),
-				'href' => $this->url->link('catalog/product/update', 'token=' . $this->session->data['token'] . '&product_id=' . $row . $url, 'SSL')
-			);
+			    $action[] = array(
+				    'text' => $this->language->get('text_edit'),
+				    'href' => $this->url->link('catalog/product/update', 'token=' . $this->session->data['token'] . '&product_id=' . $row . $url, 'SSL')
+			    );
 						
-			$duplicate_list[] = array(
-				'name' => $data['name'],
-				'model' => $data['model'],
-				'sku'=> $data['sku'],
-				'quantity'  => $data['quantity'],
-				'price' => $data['price'],
-				'action' => $action
-			);
+			    $duplicate_list[] = array(
+				    'name'     => $data['name'],
+				    'model'    => $data['model'],
+				    'sku'      => $data['sku'],
+				    'quantity' => $data['quantity'],
+				    'price'    => $data['price'],
+				    'action'   => $action
+			    );
 						
-					}
+				    }
 				}
 		   }
      
-				   if(count($data) > 0){
-					 $this->session->data['duplicate_list'] = $duplicate_list;
-					$this->session->data['success'] = "There is duplicates";
-					$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+		if(count($data) > 0){
 
+			$this->session->data['duplicate_list'] = $duplicate_list;
+			$this->session->data['success'] = "There is duplicates";
+			$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
 
-				   }
+		}
+
 			$this->session->data['duplicate'] = $this->language->get('text_success');
-
 
 			$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
 		}
