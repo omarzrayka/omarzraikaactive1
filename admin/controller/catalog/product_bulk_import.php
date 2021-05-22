@@ -91,7 +91,7 @@ class ControllerCatalogProductBulkImport  extends controller
 					}
 				}
 		   }
-
+     
 				   if(count($data) > 0){
 					 $this->session->data['duplicate_list'] = $duplicate_list;
 					$this->session->data['success'] = "There is duplicates";
