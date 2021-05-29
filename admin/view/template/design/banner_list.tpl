@@ -1,4 +1,4 @@
-<?php echo $header; ?>
+<?php echo $header_new; ?>
 <div id="content">
   <div class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -63,4 +63,4 @@
     </div>
   </div>
 </div>
-<?php echo $footer; ?>
+<?php echo $footer_new; ?>

@@ -1,26 +1,26 @@
 <?php 
-class ControllerDesignBanner extends Controller {
+class ControllerDesignAdvanceBanner extends Controller {
 	private $error = array();
  
 	public function index() {
-		$this->load->language('design/banner');
+		$this->load->language('design/advance_banner');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 		
-		$this->load->model('design/banner');
+		$this->load->model('design/advance_banner');
 		
 		$this->getList();
 	}
 
 	public function insert() {
-		$this->load->language('design/banner');
+		$this->load->language('design/advance_banner');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 		
-		$this->load->model('design/banner');
+		$this->load->model('design/advance_banner');
 		
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
-			$this->model_design_banner->addBanner($this->request->post);
+			$this->model_design_advance_banner->addBanner($this->request->post);
 			
 			$this->session->data['success'] = $this->language->get('text_success');
 
@@ -38,21 +38,21 @@ class ControllerDesignBanner extends Controller {
 				$url .= '&page=' . $this->request->get['page'];
 			}
 			
-			$this->redirect($this->url->link('design/banner', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+			$this->redirect($this->url->link('design/advance_banner', 'token=' . $this->session->data['token'] . $url, 'SSL'));
 		}
 
 		$this->getForm();
 	}
 
-	public function update() {
-		$this->load->language('design/banner');
+    public function update() {
+		$this->load->language('design/advance_banner');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 		
-		$this->load->model('design/banner');
+		$this->load->model('design/advance_banner');
 		
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
-			$this->model_design_banner->editBanner($this->request->get['banner_id'], $this->request->post);
+			$this->model_design_advance_banner->editBanner($this->request->get['banner_id'], $this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
@@ -70,22 +70,23 @@ class ControllerDesignBanner extends Controller {
 				$url .= '&page=' . $this->request->get['page'];
 			}
 					
-			$this->redirect($this->url->link('design/banner', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+			$this->redirect($this->url->link('design/advance_banner', 'token=' . $this->session->data['token'] . $url, 'SSL'));
 		}
 
 		$this->getForm();
 	}
- 
+
 	public function delete() {
-		$this->load->language('design/banner');
+	
+		$this->load->language('design/advance_banner');
  
 		$this->document->setTitle($this->language->get('heading_title'));
 		
-		$this->load->model('design/banner');
+		$this->load->model('design/advance_banner');
 		
 		if (isset($this->request->post['selected']) && $this->validateDelete()) {
 			foreach ($this->request->post['selected'] as $banner_id) {
-				$this->model_design_banner->deleteBanner($banner_id);
+				$this->model_design_advance_banner->deleteBanner($banner_id);
 			}
 			
 			$this->session->data['success'] = $this->language->get('text_success');
@@ -104,13 +105,24 @@ class ControllerDesignBanner extends Controller {
 				$url .= '&page=' . $this->request->get['page'];
 			}
 
-			$this->redirect($this->url->link('design/banner', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+			$this->redirect($this->url->link('design/advance_banner', 'token=' . $this->session->data['token'] . $url, 'SSL'));
 		}
 
 		$this->getList();
 	}
-
 	private function getList() {
+
+		if(isset($this->request->get['filter_name'])){
+            $filter_name = $this->request->get['filter_name'];
+        }else{
+            $filter_name = null;
+        }
+        if(isset($this->request->get['filter_status'])){
+            $filter_status = $this->request->get['filter_status'];
+        }else{
+            $filter_status = null;
+        }
+
 		if (isset($this->request->get['sort'])) {
 			$sort = $this->request->get['sort'];
 		} else {
@@ -128,7 +140,7 @@ class ControllerDesignBanner extends Controller {
 		} else {
 			$page = 1;
 		}
-			
+		
 		$url = '';
 			
 		if (isset($this->request->get['sort'])) {
@@ -142,8 +154,23 @@ class ControllerDesignBanner extends Controller {
 		if (isset($this->request->get['page'])) {
 			$url .= '&page=' . $this->request->get['page'];
 		}
+	
+		$url = '';
+
+        if(isset($this->request->get['filter_name'])){
+			$url .= '$filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
+		}
+
+		if(isset($this->request->get['filter_status'])){
+			$url .= '$filter_status=' . urlencode(html_entity_decode($this->request->get['filter_status'], ENT_QUOTES, 'UTF-8'));
+		}
+        
+		
+		$this->data['token'] = $this->session->data['token'];
 
   		$this->data['breadcrumbs'] = array();
+
+		//$url ='';
 
    		$this->data['breadcrumbs'][] = array(
        		'text'      => $this->language->get('text_home'),
@@ -153,42 +180,74 @@ class ControllerDesignBanner extends Controller {
 
    		$this->data['breadcrumbs'][] = array(
        		'text'      => $this->language->get('heading_title'),
-			'href'      => $this->url->link('design/banner', 'token=' . $this->session->data['token'] . $url, 'SSL'),
+			'href'      => $this->url->link('design/advance_banner', 'token=' . $this->session->data['token'] . $url, 'SSL'),
       		'separator' => ' :: '
    		);
-		
-		$this->data['insert'] = $this->url->link('design/banner/insert', 'token=' . $this->session->data['token'] . $url, 'SSL');
-		$this->data['delete'] = $this->url->link('design/banner/delete', 'token=' . $this->session->data['token'] . $url, 'SSL');
+
+    
+		$this->data['edit'] = $this->url->link('design/advance_banner/editOneInput', 'token=' . $this->session->data['token'] . $url, 'SSL');  
+		$this->data['update'] = $this->url->link('design/advance_banner/update', 'token=' . $this->session->data['token'] . $url, 'SSL');
+		$this->data['insert'] = $this->url->link('design/advance_banner/insert', 'token=' . $this->session->data['token'] . $url, 'SSL');
+		$this->data['delete'] = 'index.php?route=design/advance_banner/delete&token=' . $this->session->data['token'];
+
 		 
 		$this->data['banners'] = array();
 
+	
+		
+
+		$this->load->model('tool/image');
+
+		 // here is actionds and buttons
 		$data = array(
-			'sort'  => $sort,
-			'order' => $order,
-			'start' => ($page - 1) * $this->config->get('config_admin_limit'),
-			'limit' => $this->config->get('config_admin_limit')
-		);
+			'filter_name'       => $filter_name,
+			'filter_status'     => $filter_status,
+			'sort'              => $sort,
+			'order'             => $order,
+			'start'             => ($page -1) * 500,
+			'limit'             => 500
+	
+			);
 		
-		$banner_total = $this->model_design_banner->getTotalBanners();
-		
-		$results = $this->model_design_banner->getBanners($data);
-		
+       
+
+		$results = $this->model_design_advance_banner->getBanners($data);
 		foreach ($results as $result) {
 			$action = array();
 			
 			$action[] = array(
 				'text' => $this->language->get('text_edit'),
-				'href' => $this->url->link('design/banner/update', 'token=' . $this->session->data['token'] . '&banner_id=' . $result['banner_id'] . $url, 'SSL')
+				'href' => $this->url->link('design/advance_banner/update', 'token=' . $this->session->data['token'] . '&banner_id=' . $result['banner_id'] . $url, 'SSL')
 			);
+			$banner_image_data = array();
+			$count=0;
+			$imageBanner = $this->model_design_advance_banner->getBannerImage($result['banner_id']);
+			foreach ($imageBanner as $banner_image) {
+			
+				if ($banner_image['image'] && file_exists(DIR_IMAGE . $banner_image['image'])) {
+					$image = $this->model_tool_image->resize($banner_image['image'], 40, 40);
+				} else {
+					$image = $this->model_tool_image->resize('no_image.jpg', 40, 40);
+				}
+		      if($count <5){
+				$banner_image_data[] = $image;
+				$count++;
+			  }
+			}
+			
+	
 
 			$this->data['banners'][] = array(
 				'banner_id' => $result['banner_id'],
+				'image'      => $banner_image_data,	
 				'name'      => $result['name'],	
 				'status'    => ($result['status'] ? $this->language->get('text_enabled') : $this->language->get('text_disabled')),				
 				'selected'  => isset($this->request->post['selected']) && in_array($result['banner_id'], $this->request->post['selected']),				
 				'action'    => $action
 			);
 		}
+
+		$total = $this->model_design_advance_banner->getTotalBanners($data);
 
 		$this->data['heading_title'] = $this->language->get('heading_title');
 		
@@ -200,6 +259,9 @@ class ControllerDesignBanner extends Controller {
 
 		$this->data['button_insert'] = $this->language->get('button_insert');
 		$this->data['button_delete'] = $this->language->get('button_delete');
+        
+		$this->data['text_enabled'] = $this->language->get('text_enabled');
+		$this->data['text_disabled'] = $this->language->get('text_disabled');
  
  		if (isset($this->error['warning'])) {
 			$this->data['error_warning'] = $this->error['warning'];
@@ -227,8 +289,8 @@ class ControllerDesignBanner extends Controller {
 			$url .= '&page=' . $this->request->get['page'];
 		}
 		
-		$this->data['sort_name'] = $this->url->link('design/banner', 'token=' . $this->session->data['token'] . '&sort=name' . $url, 'SSL');
-		$this->data['sort_status'] = $this->url->link('design/banner', 'token=' . $this->session->data['token'] . '&sort=status' . $url, 'SSL');
+		$this->data['sort_name'] = $this->url->link('design/advance_banner', 'token=' . $this->session->data['token'] . '&sort=name' . $url, 'SSL');
+		$this->data['sort_status'] = $this->url->link('design/advance_banner', 'token=' . $this->session->data['token'] . '&sort=status' . $url, 'SSL');
 		
 		$url = '';
 
@@ -241,18 +303,20 @@ class ControllerDesignBanner extends Controller {
 		}
 
 		$pagination = new Pagination();
-		$pagination->total = $banner_total;
+		$pagination->total = $total;
 		$pagination->page = $page;
-		$pagination->limit = $this->config->get('config_admin_limit');
+		$pagination->limit = 500;
 		$pagination->text = $this->language->get('text_pagination');
-		$pagination->url = $this->url->link('design/banner', 'token=' . $this->session->data['token'] . $url . '&page={page}', 'SSL');
-
+		$pagination->url = $this->url->link('design/advance_banner', 'token=' . $this->session->data['token'] . $url . '&page={page}', 'SSL');
+			
 		$this->data['pagination'] = $pagination->render();
 		
-		$this->data['sort'] = $sort;
-		$this->data['order'] = $order;
-
-		$this->template = 'design/banner_list.tpl';
+		$this->data['filter_name'] = $filter_name;
+		$this->data['filter_status'] = $filter_status;
+        $this->data['sort'] = $sort;
+	    $this->data['order'] = $order;
+		
+		$this->template = 'design/advance_banner_list.tpl';
 		$this->children = array(
 			'common/header_new',
 			'common/footer_new'
@@ -326,20 +390,20 @@ class ControllerDesignBanner extends Controller {
 
    		$this->data['breadcrumbs'][] = array(
        		'text'      => $this->language->get('heading_title'),
-			'href'      => $this->url->link('design/banner', 'token=' . $this->session->data['token'] . $url, 'SSL'),
+			'href'      => $this->url->link('design/advance_banner', 'token=' . $this->session->data['token'] . $url, 'SSL'),
       		'separator' => ' :: '
    		);
 							
 		if (!isset($this->request->get['banner_id'])) { 
-			$this->data['action'] = $this->url->link('design/banner/insert', 'token=' . $this->session->data['token'] . $url, 'SSL');
+			$this->data['action'] = $this->url->link('design/advance_banner/insert', 'token=' . $this->session->data['token'] . $url, 'SSL');
 		} else {
-			$this->data['action'] = $this->url->link('design/banner/update', 'token=' . $this->session->data['token'] . '&banner_id=' . $this->request->get['banner_id'] . $url, 'SSL');
+			$this->data['action'] = $this->url->link('design/advance_banner/update', 'token=' . $this->session->data['token'] . '&banner_id=' . $this->request->get['banner_id'] . $url, 'SSL');
 		}
 		
 		$this->data['cancel'] = $this->url->link('design/banner', 'token=' . $this->session->data['token'] . $url, 'SSL');
 		
 		if (isset($this->request->get['banner_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
-			$banner_info = $this->model_design_banner->getBanner($this->request->get['banner_id']);
+			$banner_info = $this->model_design_advance_banner->getBanner($this->request->get['banner_id']);
 		}
 
 		if (isset($this->request->post['name'])) {
@@ -367,10 +431,12 @@ class ControllerDesignBanner extends Controller {
 		if (isset($this->request->post['banner_image'])) {
 			$banner_images = $this->request->post['banner_image'];
 		} elseif (isset($this->request->get['banner_id'])) {
-			$banner_images = $this->model_design_banner->getBannerImages($this->request->get['banner_id']);	
+			$banner_images = $this->model_design_advance_banner->getBannerImages($this->request->get['banner_id']);
 		} else {
 			$banner_images = array();
 		}
+
+	
 		
 		$this->data['banner_images'] = array();
 		
@@ -380,24 +446,49 @@ class ControllerDesignBanner extends Controller {
 			} else {
 				$image = 'no_image.jpg';
 			}			
-			
 			$this->data['banner_images'][] = array(
 				'banner_image_description' => $banner_image['banner_image_description'],
 				'link'                     => $banner_image['link'],
 				'image'                    => $image,
-				'thumb'                    => $this->model_tool_image->resize($image, 100, 100)
-			);	
+				'thumb'                    => $this->model_tool_image->resize($image, 100, 100),
+				'mobile_type'              => $banner_image['mobile_type'],
+				'mobile_type_id'           => $banner_image['mobile_type_id'],
+				'name'                     => $banner_image['name'],
+			);		
+		
 		} 
 	
 		$this->data['no_image'] = $this->model_tool_image->resize('no_image.jpg', 100, 100);		
 
-		$this->template = 'design/banner_form.tpl';
+		$this->template = 'design/advance_banner_form.tpl';
 		$this->children = array(
-			'common/header',
-			'common/footer'
+			'common/header_new',
+			'common/footer_new'
 		);
 				
 		$this->response->setOutput($this->render());
+	}
+
+	public function editOneInput(){
+		$this->load->model('design/advance_banner');
+
+		   if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
+
+		     	$banner_id =$this->request->post['banner_id'];
+		 	    $value = $this->request->post['value'];
+			    $selected = $this->request->post['selected'];
+			    $attr = $this->request->post['attr'];
+			
+	        	$this->model_design_advance_banner->editBannerOneInput($banner_id, $value, $attr);
+	
+		        if( $attr =="status"){
+		        if($value == "0"){
+		            echo "<span style='color:red'>" .$selected."<span>";
+		        }else{
+		            echo "<span style='color:black'>" .$selected."<span>";
+		        }
+	            }
+	        }
 	}
 
 	private function validateForm() {
@@ -437,5 +528,7 @@ class ControllerDesignBanner extends Controller {
 			return false;
 		}
 	}
+
+
 }
 ?>

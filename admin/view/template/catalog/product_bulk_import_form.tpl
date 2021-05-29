@@ -37,16 +37,20 @@
             </form>
         </div>
         <div class="content">
-            <table class="list">
+            <button type="button" id="btn_export" class="ml-2 btn btn-primary btn-sm"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Export</button>
+            <button type="button" id="btn_export" class="ml-2 btn btn-primary btn-sm"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Update</button>
+             <br>
+             <br>
+            <table class="list" id="data_table">
                 <thead>
                     <tr>
-                    <td width="1" style="text-align: center;"><input type="checkbox" onclick="$('input[name*=\'selected\']').attr('checked', this.checked);" /></td>
+                    <td class="noEx1" width="1" style="text-align: center;"><input type="checkbox" onclick="$('input[name*=\'selected\']').attr('checked', this.checked);" /></td>
                     <td><?php echo $column_name; ?></td>
                     <td><?php echo $column_model; ?></td>
                     <td><?php echo $column_sku ;?></td>
                     <td><?php echo $column_quantity; ?></td>
                     <td><?php echo $column_price; ?></td>
-                    <td class="right"><?php echo $column_action; ?></td>
+                    <td class="right noEx1"><?php echo $column_action; ?></td>
                     </tr>
                 </thead>
                    
@@ -54,10 +58,10 @@
                         <?php  if($duplicate_list){ 
                             for($i=0; $i<count($duplicate_list);$i++){ ?>
                         <tr>
-                            <td style="text-align: center;"><?php if ($i['selected']) { ?>
+                            <td class="noEx1" style="text-align: center;"><?php if ($i['selected']) { ?>
                                 <input type="checkbox" name="selected[]" value="<?php echo $i; ?>" checked="checked" />
                                 <?php } else { ?>
-                                <input type="checkbox" name="selected[]" value="<?php echo $product['product_id']; ?>" />
+                                <input type="checkbox" name="selected[]" value="<?php //echo $duplicate_list['product_id']; ?>" />
                                 <?php } ?>
                             </td>
                             <td><?php echo $duplicate_list[$i]['name'] ;?> </td>
@@ -65,7 +69,7 @@
                             <td><?php echo $duplicate_list[$i]['sku'] ;?> </td>
                             <td><?php echo $duplicate_list[$i]['quantity'] ;?> </td>
                             <td><?php echo $duplicate_list[$i]['price'] ;?> </td>
-                            <td class="right"><?php foreach ($duplicate_list[$i]['action'] as $action) { ?>
+                            <td class="right noEx1"><?php foreach ($duplicate_list[$i]['action'] as $action) { ?>
                                 [ <a href="<?php echo $action['href']; ?>"><?php echo $action['text']; ?></a> ]
                                 <?php } ?></td>
                         </tr>
@@ -76,3 +80,18 @@
     </div>
   
 </div>
+<script type="text/javascript" src="view/javascript/jquery.table2excel.js"></script>
+<script type="text/javascript">
+	$('#btn_export').on('click',function(){
+        
+		$("#data_table").table2excel({
+			// exclude CSS class
+			exclude: ".noEx1",
+			name: "Duplicate Product",
+	     	filename: "Duplicate product"+ " - " + new Date(), //do not include extension
+	     	fileext: ".xls" // file extension
+		}); 
+      
+	});
+
+</script>
