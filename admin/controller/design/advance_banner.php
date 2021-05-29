@@ -487,7 +487,9 @@ class ControllerDesignAdvanceBanner extends Controller {
 		        }else{
 		            echo "<span style='color:black'>" .$selected."<span>";
 		        }
-	            }
+	            }else{
+					echo $selected;
+				}
 	        }
 	}
 

@@ -15900,3 +15900,5 @@
 2021-05-29 8:22:03 - PHP Notice:  Undefined variable: total in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\common\header_new.tpl on line 230
 2021-05-29 8:22:10 - PHP Notice:  Undefined variable: total in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\common\header_new.tpl on line 230
 2021-05-29 8:24:29 - PHP Notice:  Undefined variable: total in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\common\header_new.tpl on line 230
+2021-05-29 9:03:17 - PHP Notice:  Undefined variable: total in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\common\header_new.tpl on line 230
+2021-05-29 9:05:27 - PHP Notice:  Undefined variable: total in C:\wamp64\www\opencart_v1.5.2.1\admin\view\template\common\header_new.tpl on line 230
