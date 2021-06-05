@@ -91,7 +91,32 @@
     <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 
+    <link href="view/javascript/select2/select2.min.css" rel="stylesheet">
+    <script src="view/javascript/select2/select2.min.js"></script>
 
+
+    <script src="view/javascript/select2/select2.min.js"></script>
+
+    <script type="text/javascript" src="view/javascript/jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="view/javascript/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+ 
+ 
+
+  <!--autocomplete-->
+   <link rel="stylesheet" type="text/css" href="view/javascript/jquery/ui/themes/base/jquery.ui.all.css" />
+   <link rel="stylesheet" type="text/css" href="view/stylesheet/tooltips.css">
+  <script>
+
+var tags = [ "c++", "java", "php", "coldfusion", "javascript", "asp", "ruby" ];
+$( "#autocomplete" ).autocomplete({
+  source: function( request, response ) {
+          var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+          response( $.grep( tags, function( item ){
+              return matcher.test( item );
+          }) );
+      }
+});
+</script>
 
     <?php foreach ($scripts as $script) { ?>
     <script type="text/javascript" src="<?php echo $script; ?>"></script>

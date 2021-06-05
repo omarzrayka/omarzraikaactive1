@@ -28,6 +28,8 @@ class ControllerCatalogProductBulkImport  extends controller
 		$this->data['column_quantity'] = $this->language->get('column_quantity');
 		$this->data['column_action'] = $this->language->get('column_action');
 
+		$this->data['entry_excel_file'] = $this->language->get('entry_excel_file');
+
 		$this->load->model('catalog/product_bulk_import');
 
 		if(isset($this->session->data['success'])){
@@ -44,13 +46,14 @@ class ControllerCatalogProductBulkImport  extends controller
 		}
 
 		if ($this->request->server['REQUEST_METHOD'] == 'POST') {
-		
+
+			$invoice_id = $this->model_catalog_product_bulk_import->insertInvoice($this->request->post);
+
 			$file = $this->request->files["file"]["tmp_name"];
 
 			include 'PHPExcel/Classes/PHPExcel/IOFactory.php';
-
+		
 			$url = '';
-			$duplicate_list = array();
 
 			$objectExcel = PHPExcel_IOFactory::load($file);
 			
@@ -66,48 +69,64 @@ class ControllerCatalogProductBulkImport  extends controller
 					$data['quantity'] = $worksheet->getCellByColumnAndRow(3, $row)->getValue();
 					$data['price'] = $worksheet->getCellByColumnAndRow(4, $row)->getValue();
 
-					$duplicate = $this->model_catalog_product_bulk_import->duplicateProduct($data);
+					if($data['name'] !=""){
+                        
+						$this->model_catalog_product_bulk_import->importProduct($invoice_id,$data);
+					}
 
-			        if ($data['model'] != "" &&  $duplicate  == 0) {
-						$this->model_catalog_product_bulk_import->importProduct($data);
-				    
-					} elseif ($data['model'] != ""){
-						
-						$action = array();
-
-			    $action[] = array(
-				    'text' => $this->language->get('text_edit'),
-				    'href' => $this->url->link('catalog/product/update', 'token=' . $this->session->data['token'] . '&product_id=' . $row . $url, 'SSL')
-			    );
-						
-			    $duplicate_list[] = array(
-				    'name'     => $data['name'],
-				    'model'    => $data['model'],
-				    'sku'      => $data['sku'],
-				    'quantity' => $data['quantity'],
-				    'price'    => $data['price'],
-				    'action'   => $action
-			    );
-						
-				    }
 				}
-		   }
-     
-		if(count($data) > 0){
+			 }
+			    
+		}else{
 
-			$this->session->data['duplicate_list'] = $duplicate_list;
-			$this->session->data['success'] = "There is duplicates";
-			$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
-
+			$invoice_id ='';
 		}
 
-			$this->session->data['duplicate'] = $this->language->get('text_success');
+				
+		if($invoice_id > 0){
+				    
+			$results = $this->model_catalog_product_bulk_import->getProducts($invoice_id);
+				    	
+			foreach ($results as $result) {
+			    $action = array();
+					
+				$action[] = array(
+					'text' => $this->language->get('text_edit'),
+					'href' => $this->url->link('catalog/product/update', 'token=' . $this->session->data['token'] . '&product_id=' . $result['product_id'] . $url, 'SSL')
+				);
+			
+			    $this->data['products'][] = array(
+					'product_id' => $result['product_id'],
+					'name'       => $result['name'],
+					'model'      => $result['model'],
+					'sku'       => $result['sku'],
+					'price'      => $result['price'],
+					'quantity'   => $result['quantity'],
+					'action'     => $action
+				    );
+			}
 
-			$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+			//$this->redirect($this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+
 		}
+				
 
 		$this->getForm();
-	}
+	}	
+    
+    function edit(){   
+
+		$this->load->model('catalog/product_bulk_import');
+
+
+	    if($this->request->server['REQUEST_METHOD'] == "POST"){
+
+	        $this->model_catalog_product_bulk_import->editProduct($this->request->post);
+
+			echo $this->request->post['selected'];
+
+	    }
+    }
 
 	private function getList()
 	{
@@ -442,8 +461,8 @@ class ControllerCatalogProductBulkImport  extends controller
 
 		$this->template = 'catalog/product_bulk_import.tpl';
 		$this->children = array(
-			'common/header',
-			'common/footer'
+			'common/header_new',
+			'common/footer_new'
 		);
 
 		$this->response->setOutput($this->render());
@@ -475,7 +494,7 @@ class ControllerCatalogProductBulkImport  extends controller
 
 		$this->data['action'] = $this->url->link('catalog/product_bulk_import/import', 'token=' . $this->session->data['token'] . $url, 'SSL');
 
-		$url = '';
+		$this->data['edit'] = $this->url->link('catalog/product_bulk_import/edit', 'token=' . $this->session->data['token'] . $url, 'SSL');
 
 		$this->data['cancel'] = $this->url->link('catalog/product_bulk_import', 'token=' . $this->session->data['token'] . $url, 'SSL');
 
@@ -489,8 +508,8 @@ class ControllerCatalogProductBulkImport  extends controller
 
 		$this->template = 'catalog/product_bulk_import_form.tpl';
 		$this->children = array(
-			'common/header',
-			'common/footer'
+			'common/header_new',
+			'common/footer_new'
 		);
 
 		$this->response->setOutput($this->render());

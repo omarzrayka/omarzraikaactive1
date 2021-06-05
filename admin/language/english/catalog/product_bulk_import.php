@@ -26,6 +26,9 @@ $_['column_quantity']        = 'Quantity';
 $_['column_status']          = 'Status';
 $_['column_action']          = 'Action';
 
+//Entry
+$_['entry_excel_file']       = 'Choose Excel Sheet';
+
 // Button
 $_['button_import']    = 'Import';
 

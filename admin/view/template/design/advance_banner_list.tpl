@@ -70,7 +70,7 @@
 						<img src="<?php echo $image[$i]; ?>" alt="<?php echo $image[$i]; ?>" style="padding: 1px; border: 1px solid #DDDDDD;" />
 
                                 <?php } ?></td>
-					<td  ><div data-id="<?php echo $banner["banner_id"] ?>" data-colum="<?php echo $banner['name']; ?>"class="editable-text"><?php echo $banner['name']; ?></div></td>
+					<td  ><div data-id="<?php echo $banner["banner_id"] ?>" class="editable-text"><?php echo $banner['name']; ?></div></td>
 					<td  style="color:<?php if($banner["status"] == 'Enabled') {echo '';}else {echo 'red';}  ?>"><div data-id="<?php echo $banner["banner_id"] ?>" class="editable-select"   data-id="<?php echo $banner["banner_id"] ?>" class="editable-select "><?php echo $banner['status']; ?></div></td>
 					<td class="right"><?php foreach ($banner['action'] as $action) { ?>
 							<a href="<?php echo $action['href']; ?>" class="btn btn-primary btn-sm"><?php echo $action['text']; ?></a> 
@@ -109,7 +109,7 @@
 		</div>
 	  </div>
 	</div>
-  </div>
+</div>
 
 <script type="text/javascript">
 	$('#btn_filter').on('click', function() {
@@ -159,6 +159,7 @@
 		submitdata: function() {
 			var id = $(this).attr("data-id")
 			var selected_value = $(this).find($("option:selected")).val()
+			var selected = $(this).find($("option:selected")).text()
 			return {
 				banner_id: id,
 				value: selected_value,
@@ -198,9 +199,7 @@
 
 
 	
-
-
-
+   //remove
 	function remove(){
 		$('#btn_remove').attr('disabled',true)
 		$('#btn_remove').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span class="sr-only">Loading...</span>')

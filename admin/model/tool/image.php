@@ -25,7 +25,7 @@ class ModelToolImage extends Model {
 			}
 			
 			$image = new Image(DIR_IMAGE . $old_image);
-			$image->resize($width, $height);
+		 	$image->resize($width, $height);
 			$image->save(DIR_IMAGE . $new_image);
 		}
 	
@@ -33,6 +33,36 @@ class ModelToolImage extends Model {
 			return HTTPS_IMAGE . $new_image;
 		} else {
 			return HTTP_IMAGE . $new_image;
+		}	
+	}
+	public function resize_image($pathimage,$filename, $width, $height) {
+	
+		
+		$info = pathinfo($filename);
+		$extension = $info['extension'];
+		
+		$old_image = $filename;
+		   $new_image = $pathimage. '/' . utf8_substr($filename, 0, strrpos($filename, '.')) . '-' . $width . 'x' . $height . '.' . $extension;
+		
+		
+			$path = '';
+			
+			$directories = explode('/', dirname(str_replace('../', '', $new_image)));
+			
+			foreach ($directories as $directory) {
+			     $path = $path . '/' . $directory;
+			
+			}
+			
+			$image = new Image($pathimage.'/'.$old_image);
+			$image->resize($width, $height);
+			$image->save( $new_image);
+	
+	
+		if (isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1'))) {
+			return  $new_image;
+		} else {
+			return  $new_image;
 		}	
 	}
 }

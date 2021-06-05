@@ -328,6 +328,7 @@ class ModelCatalogProduct extends Model {
 		return $query->row;
 	}
 	
+	
 	public function getProducts($data = array()) {
 		if ($data) {
 			$sql = "SELECT * FROM " . DB_PREFIX . "product p LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id)";
@@ -335,11 +336,13 @@ class ModelCatalogProduct extends Model {
 			if (!empty($data['filter_category_id'])) {
 				$sql .= " LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p.product_id = p2c.product_id)";			
 			}
-					
-			$sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'"; 
+			//from ahmad language english			
+			//$sql .= " WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "'"; 
+			$sql .= " WHERE pd.language_id = '1'"; 
+			
 			
 			if (!empty($data['filter_name'])) {
-				$sql .= " AND LCASE(pd.name) LIKE '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "%'";
+				$sql .= " AND LCASE(pd.name) LIKE '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "%' OR p.sku LIKE '%" .  $this->db->escape(utf8_strtolower($data['filter_name'])) . "%' ";
 			}
 
 			if (!empty($data['filter_model'])) {
@@ -350,6 +353,11 @@ class ModelCatalogProduct extends Model {
 				$sql .= " AND p.price LIKE '" . $this->db->escape($data['filter_price']) . "%'";
 			}
 			
+
+			if (isset($data['filter_cost']) && !is_null($data['filter_cost'])) {
+				$sql .= " AND p.cost LIKE '" . $this->db->escape($data['filter_cost']) . "%'";
+			}
+            
 			if (isset($data['filter_quantity']) && !is_null($data['filter_quantity'])) {
 				$sql .= " AND p.quantity = '" . $this->db->escape($data['filter_quantity']) . "'";
 			}
@@ -357,6 +365,19 @@ class ModelCatalogProduct extends Model {
 			if (isset($data['filter_status']) && !is_null($data['filter_status'])) {
 				$sql .= " AND p.status = '" . (int)$data['filter_status'] . "'";
 			}
+			//from ahmad
+			if (isset($data['filter_sku']) && !is_null($data['filter_sku'])) {
+				$sql .= " AND p.sku LIKE '%" .  $this->db->escape(utf8_strtolower($data['filter_sku'])) . "%'";
+			}
+
+			if (isset($data['filter_seller']) && !is_null($data['filter_seller'])) {
+				$sql .= " AND p.seller_id  IN (" . $this->db->escape($data['filter_seller']) . ")";
+			}
+
+			if (isset($data['filter_manufacturer']) && !is_null($data['filter_manufacturer'])) {
+				$sql .= " AND p.manufacturer_id  IN (" . $this->db->escape($data['filter_manufacturer']) . ")";
+			}
+			//echo $sql;
 					
 			if (!empty($data['filter_category_id'])) {
 				if (!empty($data['filter_sub_category'])) {
@@ -384,15 +405,19 @@ class ModelCatalogProduct extends Model {
 				'pd.name',
 				'p.model',
 				'p.price',
+
+				'p.cost',
+            
 				'p.quantity',
 				'p.status',
-				'p.sort_order'
+				'p.sort_order',
+				'p.product_id'
 			);	
 			
 			if (isset($data['sort']) && in_array($data['sort'], $sort_data)) {
 				$sql .= " ORDER BY " . $data['sort'];	
 			} else {
-				$sql .= " ORDER BY pd.name";	
+				$sql .= " ORDER BY p.product_id";	
 			}
 			
 			if (isset($data['order']) && ($data['order'] == 'DESC')) {
@@ -412,6 +437,7 @@ class ModelCatalogProduct extends Model {
 			
 				$sql .= " LIMIT " . (int)$data['start'] . "," . (int)$data['limit'];
 			}	
+			//var_dump($sql);
 			
 			$query = $this->db->query($sql);
 		
